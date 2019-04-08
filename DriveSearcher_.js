@@ -57,7 +57,7 @@ function doPost(e) {
     }
   );
 
-  var triggerWordLength = 1;
+  var triggerWordLength = e.parameter.trigger_word.length;
   var fileName = e.parameter.text.trim().slice(triggerWordLength);
   var fileUrls = SearchFiles(fileName);
   SendSearchedMessage(slackApp, "ファイルサーチくん", e, fileUrls);
