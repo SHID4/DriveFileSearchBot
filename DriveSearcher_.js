@@ -1,6 +1,6 @@
 // slack API Token
 var slack_token =
-  "________________";
+  "_______________";
 // Outgoing Webhook Verify Token
 var validToken = "____________";
 var bikkuri = ":exclamation::exclamation:";
